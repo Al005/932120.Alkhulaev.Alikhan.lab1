@@ -56,9 +56,7 @@ body {
 
 }
 
-.block__text p {
-    
-}
+
 .block__link {
     margin-bottom: 10px;
     width: 100%;
@@ -71,22 +69,91 @@ body {
     font-size: 18px;
     
 }
-.block__hereis {
+.list__hereis {
     width: 100%;
-    margin-bottom: 5px;
+    margin: 0 25px;
+}
+.list__hereis span {
+    
+    font-size: 30px;
+    margin-right: 10px;
+}
+.here {
+    color: red;
+}
 
+.list__value {
+    width: 100%;
+    margin: 0 25px 0px 60px;
 }
-.block__hereis ul {
-    display: flex;
+.list__value ul{
+    display: inline;
+    list-style:disc;
+}
+.list__value >nav>ul>li {
+    font-size: 17px;
+    margin-top: 5px;;
+}
+
+.list__value >nav>ul>li:nth-child(2) {
+    color:aqua;
+    letter-spacing: 3.5px;
+}
+
+.block__styles {
+    width: 280px;
+    margin-left:25px;
+    float:left;
+}
+.styles__title {
+    margin-top: 15px;
+    font-size: 18px;
+}
+.styles__list ul {
     list-style: none;
+    display: inline;
 }
-.block__hereis >nav>ul>li {
-    font-size: 20px;
+
+.styles__list ul>li {
+    margin-top: 5px;
+    font-size: 16px;
+}
+
+.styles__list ul>li:first-child {
+    font-style: italic;
+}
+
+.styles__list ul>li:nth-child(2) {
+    font-weight: bold;
+}
+
+.styles__list ul>li:nth-child(3) {
+    text-decoration: underline;
+}
+
+.styles__list ul>li:last-child {
+    margin-top: 10px;
+    text-decoration: line-through;
+}
+.block__table {
+    width: 145px;
+    float: right;
+    margin-top: 15px;
+}
+
+.block__table table {
+    border: solid 1px silver;
     
 }
-.block__hereis >nav>ul>li+li {
-    margin-left: 10px;
+.block__table td {
+    width: 35px; 
+    height:25px; 
+    border: solid 1px silver; 
+    text-align:center;
 }
-.block__hereis >nav>ul>li:first-child {
-    color: red;
+#index1 {
+    background-color: green;
+}
+#index7 {
+    background-color: red;
 }
